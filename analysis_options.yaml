@@ -1,0 +1,12 @@
+analyzer:
+  strong-mode:
+    implicit-casts: false
+    implicit-dynamic: false
+
+linter:
+  rules:
+    - avoid_unused_constructor_parameters  # Detect unused constructor parameters
+    - prefer_final_locals                  # Optional: Prefer final for local variables
+    - prefer_const_constructors            # Prefer using const constructors when possible
+    - avoid_init_to_null                   # Avoid initializing variables to null unnecessarily
+
